@@ -1,0 +1,204 @@
+a{
+    font-size: 14px;
+    font-style: italic;
+    margin-right: 45px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+a:link{
+    text-decoration: none;
+    
+}
+img{
+    width: 100%;
+}
+p {
+    font-size: 20px;
+    font-family: "HansomFYW01";
+    font-style: italic;    
+    line-height: 1.111;
+    
+    
+  }
+h1 {
+    font-family: "HansomFYW03";
+    font-style: italic;
+    line-height: 0.907;
+    font-size: 50px;
+    padding-top: 60px;
+    
+    }
+
+h2{
+
+    font-family: "HansomFYW03";
+    font-style: italic;
+    line-height: 0.907;
+    font-size: 50px;
+  }
+    
+    
+.no-padding{
+    padding: 0
+  }
+
+.blue{
+  background-color: #1896dc;
+}
+.color-blue{
+  color: #30a6cd;
+}
+.color-white{
+  color: #ffffff;
+}
+.light-blue{
+  background-color: #30a7ea; 
+  border-radius: 10px;
+  height: 50px;    
+  padding: 11px;
+  
+}
+
+.menu img{
+  padding: 10px;
+  width: 60%;
+}
+.compre{
+    background-color: #182458;
+    padding: 2px;
+    border-radius: 6px;
+    color: #ffffff;
+
+}
+.baunilia{
+  background-color: #f0ecc9;
+}
+.chocolate{
+  background-color: #5b3b21;
+}
+.proteina{
+  background-color: #192657;
+}
+
+.produto{
+    padding-top: 30px;
+}
+
+.pedaco p{
+  padding-top: 30px;
+  font-size: 26px;
+  font-family: "HansomFYW01";
+  font-style: italic;
+  line-height: 0.952;
+  text-align: center;
+      
+ }
+.video{
+  padding-top: 100px;
+}  
+.selo img{
+  width: 10%;
+  float: right;
+}
+.tabelas{
+text-align: center;
+}
+.tabelas img{
+width: 70%;
+}
+.chamada p{
+  padding-top: 50px;
+    font-size: 30px;
+    font-family: "HansomFYW01";
+    font-style: italic;
+    line-height: 1.667;
+    text-align: center;
+      
+}
+.carrossel{
+  justify-content: center;
+}
+.vaquinha{
+  margin-top: 50px;
+}
+
+
+.vaquinha p{
+  font-size: 20px;
+  font-family: "HansomFYW01";
+  font-style: italic;
+  line-height: 1.429;
+  text-align: left;
+  padding: 10px 15px 10px 17px;
+    
+  }
+.vaquinha img{
+  width: 80%;
+    position: relative;
+    left: -16px;
+}
+      
+
+.duvida{
+  background-color: #f7f7f7;
+  text-align: center;
+  color: #1896dc;
+  padding: 90px 80px 80px 90px;
+}
+.localizacao{
+  padding-top: 30px;
+}
+.localizacao img{
+  width: 60%;
+}
+.mapa{  
+  text-align-last: center;
+}
+.find{
+  padding: 30px 10px;
+}
+.bottom img{
+  width: 100%;
+  position: relative;
+  top: 31px;
+}
+.depoimento{
+  text-align: center;
+}
+
+.depoimento img{
+  width: 60%;
+}
+.depoimento h2{
+  padding: 45px 10px 60px 10px;
+}
+.dots{
+  padding: 30px;
+  width: 15% !important;
+}
+.contato{
+    background-image: url(img/bg-contato.png);
+    background-color: #30a7ea;
+    padding: 55px 71px;
+    text-align: -webkit-center;
+}
+.contato img{
+  width: 50%;
+}
+input{
+  overflow: visible;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.footer{
+    background-color: #192556;
+}
+.footer a{
+  color: #192556;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.footer img{
+  width: 60%;
+}
