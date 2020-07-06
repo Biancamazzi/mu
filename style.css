@@ -1,16 +1,54 @@
+/* Inicio Fonts */
+@font-face {
+  font-family: 'HansomFYW01';
+  src: url('./fonts/HansomFYW01-Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('./fonts/HansomFYW01-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+@font-face {
+  font-family: 'HansomFYW01regular';
+  src: url('./fonts/Hansom\ FY\ W01\ Regular.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'HansomFYW01bold';
+  src: url('./fonts/Hansom\ FY\ W01\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'HansomFYW03';
+  src: url('./fonts/HansomFYW03-Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('./fonts/HansomFYW03-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+@font-face {
+  font-family: 'HansomFYW03regular';
+  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'HansomFYW03bold';
+  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+/* Fim Fonts */
+
+/* Inicio CSS */
+body{  
+  font-family: "HansomFYW01";
+}
+.bold{
+  font-family: "HansomFYW01bold";
+}
+.bolder{
+  font-family: "HansomFYW03bold";
+}
 a{
     font-size: 14px;
     font-style: italic;
-    margin-right: 45px;
-    margin-left: 15px;
+    margin: 5px 45px 0px 15px;
     color: #ffffff;
 }
 a:link{
     text-decoration: none;
     
 }
-input, button, submit
-{
+input, button{
   border:none;
 }
 img{
@@ -18,39 +56,46 @@ img{
 }
 p {
     font-size: 20px;
-    font-family: "HansomFYW01";
+    font-family: "HansomFYW01regular";
     font-style: italic;    
     line-height: 1.111;
     
     
-  }
+}
 h1 {
     font-family: "HansomFYW03";
     font-style: italic;
     line-height: 0.907;
-    font-size: 50px;
+    font-size: 90px;
     padding-top: 60px;
+    margin-right: 150px;
+
     
-    }
+}
+
 
 h2{
 
-    font-family: "HansomFYW03";
-    font-style: italic;
-    line-height: 0.907;
-    font-size: 50px;
-  }
-    
-    
+  font-family: "HansomFYW03bold";
+  font-style: italic;
+  line-height: 0.907;
+  font-size: 50px;
+  font-weight: bold;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .no-padding{
     padding: 0
-  }
+}
 
 .blue{
   background-color: #1896dc;
 }
 .color-blue{
-  color: #30a6cd;
+  color: #1896dc;
 }
 .color-white{
   color: #ffffff;
@@ -60,6 +105,7 @@ h2{
   border-radius: 10px;
   height: 50px;    
   padding: 11px;
+  border-bottom-right-radius: 0px;
   
 }
 
@@ -69,9 +115,12 @@ h2{
 }
 .compre{
     background-color: #182458;
-    padding: 2px;
-    border-radius: 6px;
+    padding: 7px;
+    border-radius: 8px;
     color: #ffffff;
+    font-family: "HansomFYW01bold";
+    position: relative;
+    bottom: 6px;
 
 }
 .circulo{
@@ -84,27 +133,69 @@ h2{
   flex-direction: column;
   justify-content: center;
 }
+.produto-header{
+  margin-top: 20px;
+}
 #sabores-produto{
   display: flex;
   position: absolute;
   z-index: 1;
+  top: 21px;
+}
+.img-produto-chocolate{
+  top: 207px;
 }
 .baunilia{
   background-color: #f0ecc9;
   position: relative;
-}
-  
+  right: 20px;
+  font-style: italic;
+  font-size: 17px;
+  font-family: 'HansomFYW03';
+}  
+
 .chocolate{
   background-color: #5b3b21;
   position: relative;
+  font-style: italic;
+  font-size: 17px;
+  font-family: 'HansomFYW03';  
 }
 .proteina{
   background-color: #192657;
+  position: relative;
+  bottom: 108px;
+  right: 54px;
   float: right;
-  
+  font-size: 21px;
+  font-family: 'HansomFYW03';
+  z-index: 1;
 }
-.produto{
-    padding-top: 30px;
+.x-branco, .primeiro-mais-branco, .segundo-mais-branco{
+  width: 7%;
+  position: relative;
+}
+.x-branco{
+  top: 165px;
+  left: 55px;
+}
+.primeiro-mais-branco{
+  top: 166px;
+  left: 376px;    
+}
+.segundo-mais-branco{
+  top: 500px;
+  left: 245px; 
+  z-index: 1; 
+}
+.texto-produto{
+  position: relative;
+  left: 55px;
+}
+.texto-produto p{
+  font-size: 30px;
+  margin-right: 211px;
+  font-family: "HansomFYW01";
 }
 
 .img-produto {
@@ -112,17 +203,26 @@ h2{
   position: absolute;
   z-index: 1;
 }
-
-.pedaco{
-  text-align: center;
+.detalhe-azul img{
+  width: 2%;
 }
+.produto-body{
+  height: 0px;
+}
+#bottom-produto{
+  position: relative;
+  bottom: 6px;
+}
+
 .pedaco img{
   width: 60%;
 }
+.imagem-pedaco{
+  text-align: center;
+}
 .pedaco p{
-  padding-top: 30px;
+  padding-top: 115px;
   font-size: 26px;
-  font-family: "HansomFYW01";
   font-style: italic;
   line-height: 0.952;
   text-align: center;
@@ -143,9 +243,7 @@ width: 70%;
 }
 .chamada p{
   padding-top: 50px;
-  color: #1896dc;
-  font-size: 30px;
-  font-family: "HansomFYW01";
+  font-size: 40px;
   font-style: italic;
   line-height: 1.667;
   text-align: center;
@@ -157,41 +255,78 @@ width: 70%;
 .vaquinha{
   margin-top: 50px;
 }
-
-
-.vaquinha p{
+.vaquinha-text{
+  padding-top: 40px;
+}
+.vaquinha-text h2{
+  font-size: 66px;
+}
+.vaquinha p{  
   font-size: 20px;
-  font-family: "HansomFYW01";
   font-style: italic;
   line-height: 1.429;
   text-align: left;
-  padding: 10px 15px 10px 17px;
-    
-  }
-.vaquinha img{
-  width: 80%;
-    position: relative;
-    left: -16px;
+  padding: 10px 15px 10px 17px;       
 }
-      
+.imagem-vaquinha{
+  width: 80%;
+  position: relative;
+  left: -15px;
+  top: 88px;
+}
+.vaquinha-mais-branco{
+  width: 5%;
+  position: relative;
+  bottom: 433px;
+  left: 456px;
+}
+.detalhe-x-duvida, .detalhe-mais-azul{
+  width: 3%;
+  position: relative;
+}
+.detalhe-x-duvida{
+  top: 75px;
+  right: 248px;
+}
+.detalhe-mais-azul{
+  left: 235px;
 
+}
 .duvida{
   background-color: #f7f7f7;
   text-align: center;
   color: #1896dc;
-  padding: 90px 80px 80px 90px;
+  padding: 50px 80px 80px 90px;
 }
+.duvida h2{
+  font-size: 70px;
+  
+}
+.duvida p{
+    font-size: 16px;    
+    color: rgb(24, 150, 220);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.429;
+    text-align: center;
+    font-family: "HansomFYW01";
+}
+  
+
 .localizacao{
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .localizacao img{
   width: 60%;
 }
 .mapa{  
-  text-align-last: center;
+  text-align-last: right;
 }
 .find{
   padding: 30px 10px;
+}
+.find p{  
+  font-family: "HansomFYW01regular";
 }
 .bottom img{
   width: 100%;
@@ -201,9 +336,17 @@ width: 70%;
 .depoimento{
   text-align: center;
 }
-
 .depoimento img{
-  width: 60%;
+  padding: 5px 0px 50px 13px;
+  width: 20%;
+}
+.balao-maior{
+  width: 30% !important; 
+}
+
+.depoimento-imagem{
+  display: flex;
+  place-content: space-evenly;
 }
 .depoimento h2{
   padding: 45px 10px 60px 10px;
@@ -213,19 +356,36 @@ width: 70%;
   width: 15% !important;
 }
 .contato{
-    background-image: url(img/bg-contato.png);
-    background-color: #30a7ea;
-    padding: 55px 71px;
-    text-align: -webkit-center;
+  background-image: url(img/bg-contato.png);
+  background-color: #30a7ea;
+  text-align: -webkit-center;
+}
+.contato h2{    
+  font-size: 85px;
+  margin-right: 145px;
+  margin-left: 32px;
 }
 .contato img{
-  width: 50%;
+  width: 25%;
+  float: right;
+  position: relative;
+  right: 134px;
+  top: 16px;
+}
+.contato-text{
+  text-align: -webkit-left;
+  position: relative;
+  bottom: 57px;
+}
+.conjunto-contato{
+  display: flex;
+  flex-direction: column;
 }
 input{
   overflow: visible;
   width: 60%;
   border-radius: 6px;
-  margin-top: 5px;
+  margin-top: 30px;
   color: #30a7ea;
   width: 70%;
   height: 35px;
@@ -255,4 +415,95 @@ input{
 }
 .footer img{
   width: 60%;
+}
+
+@media (max-width: 700px) {
+  .hidden {
+    display: none !important;
+  }
+  p, .texto-produto p, .pedaco p, .chamada p, .vaquinha p, .duvida p, .find p{
+    font-size: 16px;    
+  }
+  h1{
+    text-align: center;
+    margin-right: 0px;
+    padding-top: 31px;
+    font-size: 36px;
+  }
+  h2, .duvida h2, .vaquinha-text h2, .depoimento h2, .contato h2{
+    font-size: 30px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .light-blue{
+    height: 170px;
+  }
+  .texto-produto {
+    position: relative; 
+    left: 0px;
+  }
+  .texto-produto p{
+    margin-right: 0px;
+    padding-bottom: 15px;
+  }
+  .pedaco p{
+    padding-top: 0px;
+  }
+  .video {
+    padding-top: 30px;
+  }
+  .chamada p{
+    padding-top: 15px;
+  }
+  .vaquinha p{
+    padding: 0px;
+    text-align: center;
+  }
+  .vaquinha-text {
+    margin-top: -116px;
+    padding-left: 105px;
+  }
+  .vaquinha-text h2{
+    text-align: center;
+  }  
+  .imagem-vaquinha {
+    width: 40%;
+    position: relative;
+    left: -17px;
+    top: 14px;
+  }
+  .duvida{
+    padding: 20px 0px 15px 0px;
+  }
+  .localizacao{
+    padding-top: 20px;
+  }
+  .mapa{
+    text-align-last: center;
+  }
+  .bottom img {
+    position: relative;
+    top: 9px;
+  }
+  .find {
+    text-align: center;
+}
+.input{
+  margin-top: 15px;
+}
+.contato-text {
+  position: relative;
+  bottom: 10px;
+}
+.contato img {
+  position: relative;
+  right: 132px;
+  top: 36px;
+}
+.footer a{
+  margin: 0px;
+}
+
 }
