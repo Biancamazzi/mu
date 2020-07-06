@@ -9,6 +9,10 @@ a:link{
     text-decoration: none;
     
 }
+input, button, submit
+{
+  border:none;
+}
 img{
     width: 100%;
 }
@@ -70,20 +74,51 @@ h2{
     color: #ffffff;
 
 }
+.circulo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#sabores-produto{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
 .baunilia{
   background-color: #f0ecc9;
+  position: relative;
 }
+  
 .chocolate{
   background-color: #5b3b21;
+  position: relative;
 }
 .proteina{
   background-color: #192657;
+  float: right;
+  
 }
-
 .produto{
     padding-top: 30px;
 }
 
+.img-produto {
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+}
+
+.pedaco{
+  text-align: center;
+}
+.pedaco img{
+  width: 60%;
+}
 .pedaco p{
   padding-top: 30px;
   font-size: 26px;
@@ -108,11 +143,12 @@ width: 70%;
 }
 .chamada p{
   padding-top: 50px;
-    font-size: 30px;
-    font-family: "HansomFYW01";
-    font-style: italic;
-    line-height: 1.667;
-    text-align: center;
+  color: #1896dc;
+  font-size: 30px;
+  font-family: "HansomFYW01";
+  font-style: italic;
+  line-height: 1.667;
+  text-align: center;
       
 }
 .carrossel{
@@ -187,17 +223,35 @@ width: 70%;
 }
 input{
   overflow: visible;
-    width: 60%;
-    border-radius: 6px;
-    margin-top: 5px;
+  width: 60%;
+  border-radius: 6px;
+  margin-top: 5px;
+  color: #30a7ea;
+  width: 70%;
+  height: 35px;
+}
+#mensagem{
+  height: 100px;
+}
+.circulo-footer{
+  height: 30px;
+  width: 30px;
+  font-size: 13px;
+  text-align: -webkit-center;
+  padding: 10px;
+  
 }
 .footer{
     background-color: #192556;
+    padding: 10px;
+}
+.social{
+  padding-top: 10px;
 }
 .footer a{
   color: #192556;
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 25px;
 }
 .footer img{
   width: 60%;
