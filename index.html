@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
   <title>+Mu</title>
 </head>
 <body>
@@ -13,15 +15,15 @@
     <header>
       <section >
         <div class="row menu blue">
-          <div class="col-2">
+          <div class="col-md-2 col-sm-12">
             <img src="img/logo.png">    
           </div>
           <div class="col-md-10 col-sm-12 light-blue bold color-white">   
             <nav>
-              <a href="">CHOCOWHEYFER</a>
-              <a href="">INFORMAÇÃO NUTRICIONAL</a>
-              <a href="">SOBRE A +MU</a>
-              <a href="">ONDE ENCONTRAR</a>
+              <a href="#chocowheyfer">CHOCOWHEYFER</a>
+              <a href="#info-nutri">INFORMAÇÃO NUTRICIONAL</a>
+              <a href="#sobre">SOBRE A +MU</a>
+              <a href="#onde">ONDE ENCONTRAR</a>
               <a  class="compre" href="">COMPRE AGORA</a>
             </nav>
           </div> 
@@ -30,15 +32,15 @@
       <section>
         <div class="row produto blue">
           <div class="col-md-6 col-sm-12">
-            <div class="texto-produto color-white">
+            <div id="chocowheyfer" class="texto-produto color-white">
               <h1>CONHECE O <span class="bold">CHOCO<br>WHEFER</span> +MU?</h1>
               <p>O CHOCOLATINHO GOSTOSO E PROTEICO PARA A FORMIGA QUE HÁ EM VOCÊ.</p>
             </div>            
           </div>  
           <div class="col-6 produto-header hidden">
             <div id="sabores-produto">
-              <div class=" color-blue circulo baunilia"> <span class="bold">SABOR BAUNILIA</span></div>
-              <div class="color-white circulo chocolate"><span class="bold">SABOR CHOCOLATE</span></div>
+              <div class=" color-blue circulo baunilia"> <span class="bold shorter-line">SABOR BAUNILIA</span></div>
+              <div class="color-white circulo chocolate"><span class="bold shorter-line">SABOR CHOCOLATE</span></div>
             </div>            
             <img src="img/prod-baunilia.png" alt="produto sabor baunilia" class="img-produto img-produto-baunilha">
             <img src="img/prod-chocolate.png" alt="produto sabor chocolate" class="img-produto img-produto-chocolate">
@@ -51,7 +53,7 @@
         <div class="row produto blue produto-body">
           <div class="col-12">
             <div class="proteina-produto color-white">
-              <div class="circulo proteina hidden"><span class="bold">6g PROTEÍNA</span></div>
+              <div class="circulo proteina hidden"><span class="highlight-text bold">6g</span> PROTEÍNA</div>
             </div>  
           </div>   
         </div>
@@ -87,7 +89,7 @@
       <section>
         <div class="row video">
           <div class="col-12">
-            <img src="img/img-video.png" alt="imagem de chocolate em um video">
+            <iframe width="100%" height="523" src="https://www.youtube.com/embed/uDsCtXzkp9w?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
           </div>
         </div>
       </section>  
@@ -102,7 +104,7 @@
             <img src="img/selo.png" alt="selo da marca +MU">
           </div>
         </div>
-        <div class="row tabelas">
+        <div id="info-nutri" class="row tabelas">
           <div class="col-md-6 col-sm-12">
             <img src="img/tabela-chocolate.png" alt="tabela nutricional do sabor chocolate">
           </div>
@@ -111,9 +113,41 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="row carrossel">
-          <button class="compre">COMPRE AGORA</button>
+      <section id="background-ecommerce">
+        <div class="row">
+          <div class="col-12 ecommerce">
+            <section class="ecommerce-carrousel slider">
+              <div class="ecommerce-offer">
+                <img src="./img/prod-1.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-2.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-3.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-4.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-1.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-2.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-3.png" alt="">
+              </div>
+              <div class="ecommerce-offer">
+                <img src="./img/prod-4.png" alt="">
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 ecommerce">
+            <button class="compre">COMPRE AGORA</button>
+          </div>
         </div>
       </section>
       <section>
@@ -121,7 +155,7 @@
           <div class="col-md-6 col-sm-12">
             <img src="img/vaquinha.png" alt="imagem da vaquinha" class="imagem-vaquinha"> 
           </div>
-          <div class="col-md-6 col-sm-12 color-white vaquinha-text">
+          <div id="sobre" class="col-md-6 col-sm-12 color-white vaquinha-text">
             <p><b>SOBRE A VAQUINHA:</b></p>
             <h2><b>UMA FOME <br>LEVA A OUTRA.</b></h2>
             <p><b>A +Mu é pra quem tem fome de sair do comodismo.</b> <br>
@@ -150,13 +184,13 @@
         </div>
       </section>
       <section>        
-        <div class="row localizacao">
+        <div id="onde" class="row localizacao">
           <div class="col-md-6 col-sm-12 mapa">
-            <img src="img/localizacao.png" alt="mapa do google para localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7313.043174286135!2d-46.66698727516924!3d-23.585619888683162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59e6f06b0f89%3A0x43617829f701baf6!2sIbirapuera%2C%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1594078550900!5m2!1sen!2sbr" width="80%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
           <div class="col-md-6 col-sm-12 color-blue find">
             <h2>ONDE <br> ENCONTRAR?</h2>
-            <p>Além do nosso e-commerce,<br>também estamos em lojas físicas. <br> Veja onde encontrar a vaquinha <br>perto de você:</p>
+            <p class="v-magin-30">Além do nosso e-commerce,<br>também estamos em lojas físicas. <br> Veja onde encontrar a vaquinha <br>perto de você:</p>
             <button class="compre bold">CLIQUE AQUI </button>
           </div>          
             <div class="col-12 no-padding bottom">
@@ -170,23 +204,35 @@
             <h2><b>O QUE A GALERA ACHA:</b></h2>
           </div>
           <div class="col-12 depoimento-imagem">
-            <img src="img/balao1.png" alt="depoimento 1">
-            <img src="img/balao2.png" alt="depoimento 2" class="balao-maior">
-            <img src="img/balao3.png" alt="depoimento 3">
-          </div>
-           <div class="col-12 ">
-            <img class="dots" src="img/dots.png" alt="pontos">
+            <section class="depoimento-carrousel slider">
+              <div>
+                <img src="./img/balao1.png" alt="">
+              </div>
+              <div>
+                <img src="./img/balao2.png" alt="">
+              </div>
+              <div>
+                <img src="./img/balao3.png" alt="">
+              </div>
+              <div>
+                <img src="./img/balao1.png" alt="">
+              </div>
+              <div>
+                <img src="./img/balao2.png" alt="">
+              </div>
+              <div>
+                <img src="./img/balao3.png" alt="">
+              </div>
+            </section>
           </div>
         </div>
       </section>
       <section>
         <div class="row contato">
           <div class="col-6 color-white conjunto-contato">
-            <div>
-              <img src="img/rosto-vaquinha.png" alt="rosto da vaquinha">
-            </div>
             <div class="contato-text">
-              <h2>CONTA PRA GENTE</h2>
+              <h2>CONTA <br/> PRA GENTE</h2>
+              <img src="img/rosto-vaquinha.png" alt="rosto da vaquinha" class="vaquinha-flutuante">
               <P>Experimentou nossos produtos? 
                 Conta pra gente a sua opinião! 
                 Vale elogio, crítica, sugestão ou 
@@ -194,10 +240,11 @@
               </div>
             </div>            
             <div class="col-6">
-              <form action="/action_page.php" method="get">              
-                <input type="text" id="name" name="name" placeholder="Seu nome"><br><br>              
-                <input type="text" id="email" name="email" placeholder="Seu e-mail"><br><br>              
-                <input type="text" id="mensagem" name="mensagem" placeholder="Sua mensagem"><br><br>
+              <form action="/" method="get">              
+                <input type="text" id="name" name="name" placeholder="Seu nome">              
+                <input type="text" id="email" name="email" placeholder="Seu e-mail">              
+                <textarea type="text" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                <input type="submit" class="compre" value="Enviar">
               </form>
             </div>
           </div>        
@@ -220,10 +267,10 @@
       </section>
     
   </div>
-
-  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./main.js" type="text/javascript"></script>
 </body>
 </html>
