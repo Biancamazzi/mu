@@ -1,113 +1,132 @@
 /* Inicio Fonts */
+
 @font-face {
   font-family: 'HansomFYW01';
   src: url('./fonts/HansomFYW01-Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('./fonts/HansomFYW01-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}  
+  url('./fonts/HansomFYW01-Light.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 @font-face {
   font-family: 'HansomFYW01regular';
-  src: url('./fonts/Hansom\ FY\ W01\ Regular.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('./fonts/Hansom\ FY\ W01\ Regular.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+
 @font-face {
   font-family: 'HansomFYW01bold';
-  src: url('./fonts/Hansom\ FY\ W01\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('./fonts/Hansom\ FY\ W01\ Bold.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+
 @font-face {
   font-family: 'HansomFYW03';
   src: url('./fonts/HansomFYW03-Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('./fonts/HansomFYW03-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}  
+  url('./fonts/HansomFYW03-Light.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 @font-face {
   font-family: 'HansomFYW03regular';
-  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+
 @font-face {
   font-family: 'HansomFYW03bold';
-  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}  
+  src: url('./fonts/Hansom\ FY\ W03\ Bold.ttf') format('truetype');
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 
 /* Fim Fonts */
 
+
 /* Inicio CSS */
-body{  
+
+body {
   font-family: "HansomFYW01";
 }
-.bold{
+
+.bold {
   font-family: "HansomFYW01bold";
 }
-.bolder{
+
+.bolder {
   font-family: "HansomFYW03bold";
 }
-a{
-    font-size: 14px;
-    font-style: italic;
-    margin: 5px 45px 0px 15px;
-    color: #ffffff;
-    cursor: pointer;
+
+a {
+  font-size: 14px;
+  font-style: italic;
+  margin: 5px 45px 0px 15px;
+  color: #ffffff;
+  cursor: pointer;
 }
-a:link{
-    text-decoration: none;
-    
+
+a:link {
+  text-decoration: none;
 }
-input, button, textarea{
-  border:none;
+
+input,
+button,
+textarea {
+  border: none;
 }
-img{
-    width: 100%;
+
+img {
+  width: 100%;
 }
+
 p {
-    font-size: 20px;
-    font-family: "HansomFYW01regular";
-    font-style: italic;    
-    line-height: 1.111;
-    
-    
+  font-size: 20px;
+  font-family: "HansomFYW01regular";
+  font-style: italic;
+  line-height: 1.111;
 }
+
 h1 {
-    font-family: "HansomFYW03";
-    font-style: italic;
-    line-height: 0.907;
-    font-size: 90px;
-    padding-top: 60px;
-    margin-right: 150px;
-
-    
+  font-family: "HansomFYW03";
+  font-style: italic;
+  line-height: 0.907;
+  font-size: 90px;
+  padding-top: 60px;
+  margin-right: 150px;
 }
 
-
-h2{
-
+h2 {
   font-family: "HansomFYW03bold";
   font-style: italic;
   line-height: 0.907;
   font-size: 50px;
   font-weight: bold;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-evenly;
 }
 
-.no-padding{
-    padding: 0
+.no-padding {
+  padding: 0
 }
 
-.blue{
+.blue {
   background-color: #1896dc;
 }
 
-.color-blue{
+.color-blue {
   color: #1896dc;
 }
 
-.color-white{
+.color-white {
   color: #ffffff;
 }
 
-.light-blue{
-  background-color: #30a7ea; 
+.light-blue {
+  background-color: #30a7ea;
   border-radius: 0px;
-  height: 50px;    
+  height: 50px;
   padding: 11px;
   border-bottom-left-radius: 10px;
 }
@@ -116,11 +135,12 @@ nav{
   line-height: 18px;
 }
 
-.menu img{
+.menu img {
   padding: 10px;
   width: 60%;
 }
-.compre{
+
+.compre {
   background-color: #182458;
   padding: 7px 15px;
   border-radius: 20px;
@@ -135,7 +155,7 @@ nav{
   line-height: 42px;
 }
 
-.circulo{
+.circulo {
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -146,35 +166,40 @@ nav{
   flex-direction: column;
   justify-content: center;
 }
-.produto-header{
+
+.produto-header {
   margin-top: 20px;
 }
-#sabores-produto{
+
+#sabores-produto {
   display: flex;
   position: absolute;
   z-index: 1;
   top: 21px;
 }
-.img-produto-chocolate{
+
+.img-produto-chocolate {
   top: 207px;
 }
-.baunilia{
+
+.baunilia {
   background-color: #f0ecc9;
   position: relative;
   right: 20px;
   font-style: italic;
   font-size: 17px;
   font-family: 'HansomFYW03';
-}  
+}
 
-.chocolate{
+.chocolate {
   background-color: #5b3b21;
   position: relative;
   font-style: italic;
   font-size: 17px;
-  font-family: 'HansomFYW03';  
+  font-family: 'HansomFYW03';
 }
-.proteina{
+
+.proteina {
   background-color: #192657;
   position: relative;
   bottom: 108px;
@@ -184,28 +209,36 @@ nav{
   font-family: 'HansomFYW03';
   z-index: 1;
 }
-.x-branco, .primeiro-mais-branco, .segundo-mais-branco{
+
+.x-branco,
+.primeiro-mais-branco,
+.segundo-mais-branco {
   width: 7%;
   position: relative;
 }
-.x-branco{
+
+.x-branco {
   top: 165px;
   left: 55px;
 }
-.primeiro-mais-branco{
+
+.primeiro-mais-branco {
   top: 166px;
-  left: 376px;    
+  left: 376px;
 }
-.segundo-mais-branco{
+
+.segundo-mais-branco {
   top: 500px;
-  left: 245px; 
-  z-index: 1; 
+  left: 245px;
+  z-index: 1;
 }
-.texto-produto{
+
+.texto-produto {
   position: relative;
   left: 55px;
 }
-.texto-produto p{
+
+.texto-produto p {
   font-size: 30px;
   margin-right: 211px;
   font-family: "HansomFYW01";
@@ -216,153 +249,181 @@ nav{
   position: absolute;
   z-index: 1;
 }
-.detalhe-azul img{
+
+.detalhe-azul img {
   width: 2%;
 }
-.produto-body{
+
+.produto-body {
   height: 0px;
 }
-#bottom-produto{
+
+#bottom-produto {
   position: relative;
   bottom: 6px;
 }
 
-.pedaco img{
+.pedaco img {
   width: 60%;
 }
-.imagem-pedaco{
+
+.imagem-pedaco {
   text-align: center;
 }
-.pedaco p{
+
+.pedaco p {
   padding-top: 115px;
   font-size: 26px;
   font-style: italic;
   line-height: 0.952;
   text-align: center;
-      
- }
-.video{
+}
+
+.video {
   padding-top: 100px;
-}  
-.selo img{
+}
+
+.selo img {
   width: 10%;
   float: right;
 }
-.tabelas{
-text-align: center;
-padding-bottom: 40px;
+
+.tabelas {
+  text-align: center;
+  padding-bottom: 40px;
 }
-.tabelas img{
-width: 70%;
+
+.tabelas img {
+  width: 70%;
 }
-.chamada p{
+
+.chamada p {
   padding-top: 50px;
   font-size: 40px;
   font-style: italic;
   line-height: 1.667;
   text-align: center;
-      
 }
-.carrossel{
+
+.carrossel {
   justify-content: center;
 }
-.vaquinha-text{
+
+.vaquinha-text {
   padding-top: 40px;
 }
-.vaquinha-text h2{
+
+.vaquinha-text h2 {
   font-size: 66px;
 }
-.vaquinha p{  
+
+.vaquinha p {
   font-size: 20px;
   font-style: italic;
   line-height: 1.429;
   text-align: left;
-  padding: 10px 15px 10px 17px;       
+  padding: 10px 15px 10px 17px;
 }
-.imagem-vaquinha{
+
+.imagem-vaquinha {
   width: 80%;
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.vaquinha-mais-branco{
+
+.vaquinha-mais-branco {
   width: 5%;
   position: relative;
   bottom: 433px;
   left: 456px;
 }
-.detalhe-x-duvida, .detalhe-mais-azul{
+
+.detalhe-x-duvida,
+.detalhe-mais-azul {
   width: 3%;
   position: relative;
 }
-.detalhe-x-duvida{
+
+.detalhe-x-duvida {
   top: 75px;
   right: 248px;
 }
-.detalhe-mais-azul{
-  left: 235px;
 
+.detalhe-mais-azul {
+  left: 235px;
 }
-.duvida{
+
+.duvida {
   background-color: #f7f7f7;
   text-align: center;
   color: #1896dc;
   padding: 50px 80px 80px 90px;
 }
-.duvida h2{
-  font-size: 70px;
-  
-}
-.duvida p{
-    font-size: 16px;    
-    color: rgb(24, 150, 220);
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1.429;
-    text-align: center;
-    font-family: "HansomFYW01";
-}
-  
 
-.localizacao{
+.duvida h2 {
+  font-size: 70px;
+}
+
+.duvida p {
+  font-size: 16px;
+  color: rgb(24, 150, 220);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.429;
+  text-align: center;
+  font-family: "HansomFYW01";
+}
+
+.localizacao {
   padding-top: 40px;
 }
-.localizacao img{
+
+.localizacao img {
   width: 60%;
 }
+
 .v-magin-30 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.mapa{  
+
+.mapa {
   text-align-last: right;
 }
-.find{
+
+.find {
   padding: 30px 10px;
 }
-.find p{  
+
+.find p {
   font-family: "HansomFYW01regular";
 }
-.bottom img{
+
+.bottom img {
   width: 100%;
   position: relative;
   top: 31px;
 }
-.depoimento{
+
+.depoimento {
   text-align: center;
 }
+
 .depoimento {
   padding-bottom: 40px;
 }
-.depoimento img{
+
+.depoimento img {
   padding: 5px 0px 50px 13px;
   width: 30%;
 }
-.balao-maior{
-  width: 30% !important; 
+
+.balao-maior {
+  width: 30% !important;
 }
 
-.depoimento-imagem{
+.depoimento-imagem {
   display: flex;
   place-content: space-evenly;
 }
@@ -371,79 +432,101 @@ width: 70%;
   height: 150px;
   width: auto;
 }
-.depoimento h2{
+
+.depoimento h2 {
   padding: 45px 10px 60px 10px;
 }
+
 ul.slick-dots li button:before {
   font-size: 11px;
   opacity: 1;
   color: #f7f7f7;
 }
+
 ul.slick-dots li.slick-active button:before {
   color: #182458;
 }
-.dots{
+
+.dots {
   padding: 30px;
   width: 15% !important;
 }
-.contato{
+
+.contato {
   background-image: url(img/bg-contato.png);
   background-color: #30a7ea;
   text-align: -webkit-center;
   padding: 50px 70px;
 }
+
 .contato p {
   width: 77%;
   font-size: 25px;
 }
+
 .slider {
   width: 80%;
 }
+
 #background-ecommerce {
   background-image: url(img/light-pattern.png);
   padding-bottom: 40px;
 }
+
 .ecommerce {
   text-align: center;
   display: flex;
   place-content: space-evenly;
   padding-top: 40px;
 }
+
 .ecommerce .slick-slide img {
   display: block;
   height: 345px;
 }
+
 .ecommerce-offer img {
   padding: 0 5px;
 }
-.ecommerce  ul.slick-dots li button:before {
+
+.ecommerce ul.slick-dots li button:before {
   font-size: 11px;
   opacity: 1;
   color: #313c6d;
 }
-ul.slick-dots li.slick-active button:before {
+
+.ecommerce ul.slick-dots li.slick-active button:before {
   border: 1px solid #333;
   border-radius: 50%;
+}
+
+ul.slick-dots li.slick-active button:before {
   color: #182458;
 }
-.contato h2{    
+
+.contato h2 {
   font-size: 85px;
 }
+
 .vaquinha-flutuante {
   width: 25%;
   position: absolute;
   top: -18px;
   left: 240px;
 }
-.contato-text{
+
+.contato-text {
   text-align: -webkit-left;
   position: relative;
 }
-.conjunto-contato{
+
+.conjunto-contato {
   display: flex;
   flex-direction: column;
 }
-input, textarea{
+
+input,
+textarea {
   overflow: visible;
   width: 100%;
   border-radius: 15px;
@@ -453,35 +536,42 @@ input, textarea{
   padding: 0 15px;
   font-style: italic;
 }
-input:focus, textarea:focus{
+
+input:focus,
+textarea:focus {
   outline: none;
 }
-#mensagem{
+
+#mensagem {
   height: 100px;
   padding-top: 10px;
   font-style: italic;
 }
-.circulo-footer{
+
+.circulo-footer {
   height: 30px;
   width: 30px;
   font-size: 13px;
   text-align: -webkit-center;
   padding: 10px;
-  
 }
-.footer{
-    background-color: #192556;
-    padding: 10px;
+
+.footer {
+  background-color: #192556;
+  padding: 10px;
 }
-.social{
+
+.social {
   padding-top: 10px;
 }
-.footer a{
+
+.footer a {
   color: #192556;
   background-color: #ffffff;
   border-radius: 25px;
 }
-.footer img{
+
+.footer img {
   width: 50%;
   margin-top: 10px;
 }
@@ -490,25 +580,36 @@ input:focus, textarea:focus{
   .hidden {
     display: none !important;
   }
-  p, .texto-produto p, .pedaco p, .chamada p, .vaquinha p, .duvida p, .find p, .contato p{
-    font-size: 16px;    
+  p,
+  .texto-produto p,
+  .pedaco p,
+  .chamada p,
+  .vaquinha p,
+  .duvida p,
+  .find p,
+  .contato p {
+    font-size: 16px;
   }
-  h1{
+  h1 {
     text-align: center;
     margin-right: 0px;
     padding-top: 31px;
     font-size: 36px;
   }
-  h2, .duvida h2, .vaquinha-text h2, .depoimento h2, .contato h2{
+  h2,
+  .duvida h2,
+  .vaquinha-text h2,
+  .depoimento h2,
+  .contato h2 {
     font-size: 30px;
   }
-  .menu .col-md-2{
+  .menu .col-md-2 {
     text-align: center;
   }
   .menu img {
     width: 20%;
   }
-  nav{
+  nav {
     display: flex;
     flex-direction: column;
   }
@@ -519,15 +620,15 @@ input:focus, textarea:focus{
     margin: 10px 0;
     text-align: center;
   }
-  .light-blue{
+  .light-blue {
     height: 170px;
     border-bottom-left-radius: 0;
   }
   .texto-produto {
-    position: relative; 
+    position: relative;
     left: 0px;
   }
-  .texto-produto p{
+  .texto-produto p {
     margin-right: 0px;
     padding-bottom: 15px;
     text-align: center;
@@ -536,16 +637,16 @@ input:focus, textarea:focus{
   .ecommerce .slick-slide img {
     height: 485px;
   }
-  .pedaco p{
+  .pedaco p {
     padding-top: 0px;
   }
   .video {
     padding-top: 30px;
   }
-  .chamada p{
+  .chamada p {
     padding-top: 15px;
   }
-  .vaquinha p{
+  .vaquinha p {
     padding: 0px;
   }
   .vaquinha-text {
@@ -553,7 +654,8 @@ input:focus, textarea:focus{
     padding-left: 105px;
     padding-top: 0;
   }
-  .vaquinha-text p, .vaquinha-text h2 {
+  .vaquinha-text p,
+  .vaquinha-text h2 {
     text-align: right;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -564,13 +666,13 @@ input:focus, textarea:focus{
     left: -17px;
     top: 14px;
   }
-  .duvida{
+  .duvida {
     padding: 45px 0px 45px 0px;
   }
-  .localizacao{
+  .localizacao {
     padding-top: 20px;
   }
-  .mapa{
+  .mapa {
     text-align-last: center;
   }
   .bottom img {
@@ -579,26 +681,25 @@ input:focus, textarea:focus{
   }
   .find {
     text-align: center;
-}
-.input{
-  margin-top: 15px;
-}
-.contato{
-  padding: 25px 10px;
-}
-.vaquinha-flutuante {
-  top: -7px;
-  left: 90px;
-}
-.social {
-  padding-top: 5px;
-  text-align: -webkit-center;
-}
-.footer a{
-  margin: 3px;
-}
-.footer img {
-  width: 100%;
-}
-
+  }
+  .input {
+    margin-top: 15px;
+  }
+  .contato {
+    padding: 25px 10px;
+  }
+  .vaquinha-flutuante {
+    top: -7px;
+    left: 90px;
+  }
+  .social {
+    padding-top: 5px;
+    text-align: -webkit-center;
+  }
+  .footer a {
+    margin: 3px;
+  }
+  .footer img {
+    width: 100%;
+  }
 }
