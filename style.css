@@ -389,7 +389,7 @@ nav {
 }
 
 .mapa {
-  text-align-last: right;
+  text-align: center;
 }
 
 .find {
@@ -673,7 +673,7 @@ textarea:focus {
     padding-top: 20px;
   }
   .mapa {
-    text-align-last: center;
+    text-align: center;
   }
   .bottom img {
     position: relative;
